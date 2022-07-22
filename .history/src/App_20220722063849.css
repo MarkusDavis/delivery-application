@@ -1,0 +1,18 @@
+:root {
+  --primary-color: rgb(255, 0, 187);
+  --secondary: #;
+  --bg: #fff;
+  --text: #000;
+  --icon: "#000"
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: Dark) {
+  :root {
+    --primary-color: rgb(255, 0, 187);
+    --secondary: #;
+    --bg: #000;
+    --text: #fff;  --icon: "#000"
+
+  }
+}
